@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Жратва {
+	public static void main(String argsp[]){
+	      Scanner in = new Scanner(System.in);
+	      System.out.print("Выберите котейку от 1 до 10, чтобы узнать его предпочтения ");
+	      int a = in.nextInt();
+	      switch(a) {
+	      case 1:
+	    	  System.out.print("Лапша быстрого приготовления");
+	    	  break;
+	      case 2:
+	    	  System.out.print("Сосиски");
+	    	  break;
+	      case 3:
+	    	  System.out.print("Тортик 'Муравейник'");
+	    	  break;
+	      case 4:
+	    	  System.out.print("Печеньки судьбы");
+	    	  break;
+	      case 5:
+	    	  System.out.print("Капучино");
+	    	  break;
+	      case 6:
+	    	  System.out.print("Отвар пропитанный тёмной энергией (наш котик культист, что с него взять)");
+	    	  break;
+	      case 7:
+	    	  System.out.print("Саке (да наш котик любит побухать и что с того?)");
+	    	  break;
+	      case 8:
+	    	  System.out.print("Шоколадка");
+	    	  break;
+	      case 9:
+	    	  System.out.print("Чаёк");
+	    	  break;
+	      case 10:
+	    	  System.out.print("Такояки");
+	    	  break;
+	    	  default:
+	    	  System.out.println("Программист Олег пока что не так хорош, чтобы писать программы для большего числа котиков.");
+	    	  System.out.println("Так что, пожалуйста, не выделывайтесь и выберите из тех котиков, которые он предложил!");
+	      }
+}}
